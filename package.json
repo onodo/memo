@@ -1,0 +1,21 @@
+{
+  "name": "wp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-changed": "^3.2.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-ejs": "^3.1.0",
+    "gulp-notify": "^3.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^5.0.0"
+  }
+}

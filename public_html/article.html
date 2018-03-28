@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>メモ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/monokai.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header_inner">
+            <h1 class="headLogo"><a href="">メモ・アウトプット</a></h1>
+            <nav class="headNav">
+                <!-- <input type="button" class="headNav_item selectBtn" value="カテゴリー"> -->
+                <button class="headNav_item selectBtn" onclick="selectShow(this, event); return false;">カテゴリー</button>
+                <ul class="headNav_item selectList">
+                    <li><a href="" class="selectList_item">html</a></li>
+                    <li><a href="" class="selectList_item">css</a></li>
+                    <li><a href="" class="selectList_item">jQuery/JavaScript</a></li>
+                    <li><a href="" class="selectList_item">その他</a></li>
+                </ul>
+                <!-- <i class="selectBtn_arrow"></i> -->
+            </nav>
+        </div>
+    </header>
+    <div class="contentsWrap">
+        <div class="contents">
+            <article class="articleMain">
+                <header class="articleMain_header">
+                    <h2 class="articleTtl">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</h2>
+                    <ul class="articleInfo">
+                        <li class="articleInfo_item"><a href="">カテゴリー</a></li>
+                        <li class="articleInfo_item">2018.00.00</li>
+                    </ul>
+                </header>
+                <h3>タイトル草枕</h3>
+                <p class="">情に棹させば流される。智に働けば角が立つ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。とかくに人の世は住みにくい。意地を通せば窮屈だ。 とかくに人の世は住みにくい。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</p>
+                <h3>タイトルタイトル</h3>
+                <h4>h4タイトル</h4>
+                <h5>h5タイトル</h5>
+                <blockquote>引用テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</blockquote>
+                <pre><code>&lt;html&gt;
+    &lt;meta&gt;
+&lt;/html&gt;
+&lt;body&gt;
+&lt;/body&gt;</code></pre>
+            </article>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_inner">
+            <nav class="footerNav">
+                <h3 class="footerNav_ttl">カテゴリー</h3>
+                <a href="" class="footerNav_link">html</a>
+                <a href="" class="footerNav_link">css</a>
+                <a href="" class="footerNav_link">jQuery/JavaScript</a>
+                <a href="" class="footerNav_link">その他</a>
+            </nav>
+            <footer class="copy">運営@onodo</footer>
+        </div>
+    </div>
+    <script src="js/common.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+    <script>selectHide(); hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
