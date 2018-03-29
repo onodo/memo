@@ -1,0 +1,147 @@
+a {transition: .2s linear;}
+article {
+    a:hover {opacity: 0.6;}
+}
+
+.header {
+    height: 70px;
+    &_inner {
+        margin: auto auto;
+        width: 980px;
+    }
+}
+.headLogoWrap {
+    flex-wrap: nowrap;
+}
+.headLogo {
+    flex: initial;
+    flex-basis: auto;
+    font-size: 20px;
+    font-size: 2rem;
+    a:hover {opacity: 0.6;}
+}
+.categoryTtl {
+    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto 0 .8em;
+}
+.headNav {
+    width: 160px;
+}
+.linkBtn {
+    font-size: 15px;
+    font-size: 1.5rem;
+    transition: .2s linear;
+    &:hover {
+        background: #fff;
+        color: #1a1a1a;
+    }
+}
+.selectBtn:hover {background-color: #f4f4f4;}
+.selectList {
+    width: 100%;
+    &_item:hover {background-color: #f4f4f4;}
+}
+.pager {
+    .page-numbers {
+        &.prev:after,
+        &.next:after {transition: .2s linear;}
+        &:not(.dots):not(.nolink):hover {
+            background-color: #1A1A1A;
+            color: #fff;
+            &:after {border-color: #fff;}
+        }
+    }
+}
+.contentsWrap {
+    margin: 100px auto 40px;
+    padding: 0;
+    width: 980px;
+}
+.contents {
+    padding: 40px 0;
+}
+.articleList {
+    font-size: 14px;
+    font-size: 1.4rem;
+    padding: 0 18%;
+    &_ttl {
+        font-size: 20px;
+        font-size: 2rem;
+    }
+}
+.articleMain {
+    font-size: 15px;
+    font-size: 1.5rem;
+    &_header {
+        margin: 0 auto 50px;
+        padding: 10px 0 50px;
+        width: 64%;
+    }
+    .articleInfo_item {
+        font-size: 16px;
+        font-size: 1.6rem;
+    }
+    code,blockquote {padding: 20px 18%;}
+    h3 {
+        font-size: 20px;
+        font-size: 2rem;
+        width: 64%;
+    }
+    h4 {
+        font-size: 18px;
+        font-size: 1.8rem;
+        width: 64%;
+    }
+    h5 {
+        font-size: 16px;
+        font-size: 1.6rem;
+    }
+    h5, p {
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+    blockquote {
+        &:before,
+        &:after {
+            font-size: 30px;
+            font-size: 3rem;
+        }
+        &:before {
+           left: 14%; 
+        }
+        &:after {
+            right: 14%;
+        }
+    }
+}
+.articleTtl {
+    font-size: 23px;
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+.footer {
+    padding: 30px 20px;
+    &_inner {width: 980px;}
+}
+.footerNav {
+    flex-wrap: nowrap;
+    &_link,
+    &_ttl {
+        flex: none;
+        font-size: 15px;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    &_link {
+        margin-top: 0;
+        &:hover {opacity: 0.6;}
+    }
+    
+}
+.copy {
+    font-size: 13px;
+    font-size: 1.3rem;
+    margin-top: 0;
+}
