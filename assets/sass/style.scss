@@ -324,9 +324,27 @@ article {
         }
     }
     code {
-        font-size: 13px;
-        font-size: 1.3rem;
+        font-size: 12px;
+        font-size: 1.2rem;
         padding: 20px 8%;
+    }
+    table {
+        border-collapse: collapse;
+        box-sizing: border-box;
+        font-size: 12px;
+        font-size: 1.2rem;
+        margin: auto;
+        width: 84%;
+        thead th {
+            background-color: #575757;
+            color: #fff;
+            padding: .5em;
+        }
+        tbody th {background-color: #f4f4f4;}
+        th, td {
+            border: 1px solid #ccc;
+            padding: .8em;
+        }
     }
     h3, h4 {
         box-sizing: border-box;
@@ -340,6 +358,7 @@ article {
         background: #F4F4F4;
         padding: 10px;
     }
+    h3:not(:first-child) {margin-top: 3em;}
     h4 {
         font-size: 16px;
         font-size: 1.6rem;

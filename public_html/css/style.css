@@ -737,9 +737,30 @@ a {
     max-width : 100%;
 }
 .articleMain code {
-    font-size : 13px;
-    font-size : 1.3rem;
+    font-size : 12px;
+    font-size : 1.2rem;
     padding : 20px 8%;
+}
+.articleMain table {
+    border-collapse : collapse;
+    -webkit-box-sizing : border-box;
+    box-sizing : border-box;
+    font-size : 12px;
+    font-size : 1.2rem;
+    margin : auto;
+    width : 84%;
+}
+.articleMain table thead th {
+    background-color : #575757;
+    color : #fff;
+    padding : .5em;
+}
+.articleMain table tbody th {
+    background-color : #f4f4f4;
+}
+.articleMain table th, .articleMain table td {
+    border : 1px solid #ccc;
+    padding : .8em;
 }
 .articleMain h3, .articleMain h4 {
     -webkit-box-sizing : border-box;
@@ -753,6 +774,9 @@ a {
     font-size : 1.8rem;
     background : #f4f4f4;
     padding : 10px;
+}
+.articleMain h3:not(:first-child) {
+    margin-top : 3em;
 }
 .articleMain h4 {
     font-size : 16px;
@@ -922,8 +946,17 @@ a {
         font-size : 16px;
         font-size : 1.6rem;
     }
+    .articleMain code {
+        font-size : 13px;
+        font-size : 1.3rem;
+    }
     .articleMain code, .articleMain blockquote {
         padding : 20px 18%;
+    }
+    .articleMain table {
+        font-size : 13px;
+        font-size : 1.3rem;
+        width : 64%;
     }
     .articleMain h3 {
         font-size : 20px;
